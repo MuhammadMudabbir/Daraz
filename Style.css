@@ -1,0 +1,1369 @@
+/* top bar */
+.top{
+    background-color: rgb(226, 226, 226);
+    height: calc(4vh);
+    width: calc(100vw);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.a{
+    margin-left: 22%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fd571a;
+    cursor: pointer;
+}
+.b{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.c{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.d{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+} 
+.e{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.f{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.g{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.h{
+    margin-left: 2%;
+    margin-top: 0.2%;
+    font-size: 0.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+} 
+/* hover on top */
+.a:hover{
+    border-bottom: 1px solid #fd571a;
+}
+.b:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.c:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.d:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.e:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.f:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.g:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+.h:hover{
+    border-bottom: 1px solid #fd571a;
+    color: #fd571a;
+}
+/* navigation bar */
+.nav{
+    height: calc(12vh);
+    width: calc(100vw);
+    background-color: white;
+    display: flex;
+}
+.logo{
+    height: calc(7vh);
+    width: calc(12vw);
+    margin-top: 1%;
+    margin-left: 6%;
+    cursor: pointer;
+}
+.searchbar{
+    height: calc(7.5vh);
+    width: calc(45vw);
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+    margin-top: 1%;
+    margin-left: 4%;
+    border: none;
+}
+.search{
+    height: calc(7.5vh);
+    width: calc(4vw);
+    margin-top: 1%;
+    margin-left: 0%;
+    cursor: pointer;
+}
+.cart{
+    height: calc(4vh);
+    width: calc(2.5vw);
+    margin-top: 1.7%;
+    margin-left: 2.5%;
+    cursor: pointer;
+}
+.special{
+    height: calc(7vh);
+    width: calc(15vw);
+    margin-top: 1%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.imageone{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.imagetwo{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.imagethree{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.imagefour{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.imagefive{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.imagesix{
+    height: calc(50vh);
+    width: calc(70vw);
+    margin-left: 22.3%;
+    cursor: pointer;
+}
+.infobars{
+    display: flex;
+}
+.mart{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 3%;
+    height: calc(6vh);
+    width: calc(27vw);
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.fashion{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: calc(6vh);
+    width: calc(27vw);
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.beauty{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3%;
+    height: calc(6vh);
+    width: calc(27vw);
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.micon{
+    height: calc(5vh);
+    width: calc(3vw);
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.ficon{
+    height: calc(5vh);
+    width: calc(3vw);
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.bicon{
+    height: calc(5vh);
+    width: calc(3vw);
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.martt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.fashiont{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+.beautyt{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+/* hover */
+.mart:hover{
+    box-shadow: 2px 2px 2px 2px rgb(209, 209, 209);
+    color: greenyellow;
+}
+.fashion:hover{
+    box-shadow: 2px 2px 2px 2px rgb(209, 209, 209);
+    color: orange;
+}
+.beauty:hover{
+    box-shadow: 2px 2px 2px 2px rgb(209, 209, 209);
+}
+.flasht{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+/* timer bar */
+.cardtop{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    height: calc(10vh);
+    width: calc(86vw);
+    margin-left: 7%;
+    border-bottom: 1px solid gray;
+}
+.onsale{
+    color: #fd571a;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: bold;
+}
+.ending{
+    color: black;
+    margin-top: 2%;
+    margin-left: 7%;
+    font-weight: bold;
+}
+.timer{
+    background-color: #fd571a;
+    height: calc(6vh);
+    width: calc(3vw);
+    display: flex;
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+.hour{
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    font-size: 1.5em;
+}
+.colon{
+    font-weight: bolder;
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+}
+.timert{
+    background-color: #fd571a;
+    height: calc(6vh);
+    width: calc(3vw);
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+.minute{
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    font-size: 1.5em;
+}
+.colontwo{
+    font-weight: bolder;
+    margin-top: 1.5%;
+    margin-left: 0.5%;
+}
+.timerth{
+    background-color: #fd571a;
+    height: calc(6vh);
+    width: calc(3vw);
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+.second{
+    margin-top: 10%;
+    margin-left: 20%;
+    color: white;
+    font-size: 1.5em;
+}
+.shopmore{
+    height: calc(6vh);
+    width: calc(8vw);
+    color: #fd571a;
+    border: 1px solid #fd571a;
+    margin-left: 53%;
+    margin-top: 1%;
+}
+/* cards first row */
+.cardlineone{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(46vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.card{
+    cursor: pointer;
+}
+.cardtwo{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.cardthree{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.cardfour{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.cardfive{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.cardsix{
+    margin-left: 1%;
+    cursor: pointer;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover on card first row*/
+.card:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardtwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* cards second row */
+.cardlinetwo{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(50vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.cards{
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardstwo{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsthree{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsfour{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsfive{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssix{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover on card second row*/
+.cards:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardstwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* top brands */
+.darazmall{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.brands{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    width: calc(86vw);
+    height: calc(43vh);
+    margin-left: 7%;
+}
+.brandcard{
+    margin-left: 0.5%;
+    cursor: pointer;
+}
+.brandcardtwo{
+    cursor: pointer;
+}
+.brandcardthree{
+    cursor: pointer;
+}
+.brandcardfour{
+    cursor: pointer;
+}
+.brandcardfive{
+    cursor: pointer;
+}
+.brandcardsix{
+    cursor: pointer;
+}
+.brandimg{
+    height: calc(30vh);
+    width: calc(13.5vw);
+}
+.brandlogo{
+    height: calc(10vh);
+    width: calc(5vw);
+    margin-top: -20%;
+    margin-left: 28%;
+}
+.brandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.brandnameone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 10%;
+}
+.twobrandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 30%;
+}
+.brandnametwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 33%;
+}
+.threebrandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.brandnamethree{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 17%;
+}
+.fourbrandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 15%;
+}
+.brandnamefour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 20%;
+}
+.fivebrandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 14%;
+}
+.brandnamefive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 20%;
+}
+.sixbrandname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 35%;
+}
+.brandnamesix{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: gray;
+    margin-left: 38%;
+}
+/* hover on card brand row*/
+.brandcard:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.brandcardtwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.brandcardthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.brandcardfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.brandcardfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.brandcardsix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* brand categories */
+.categories{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.productcategory{
+    background-color: rgb(219, 217, 217);
+    height: calc(40vh);
+    width: calc(88vw);
+    margin-left: 6%;
+}
+.rowone{
+    height: calc(20vh);
+    width: calc(88vw);
+    display: flex;
+}
+.cimgone{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconone{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.textone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.texttwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textthree{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textfour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textfive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textsix{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textseven{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.texteight{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.cimgtwo{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.icontwo{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgthree{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconthree{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgfour{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconfour{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgfive{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconfive{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgsix{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconsix{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgseven{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconseven{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cimgeight{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconeight{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+/* second row of category */
+.rowtwo{
+    height: calc(20vh);
+    width: calc(88vw);
+    display: flex;
+}
+.cimgrones{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrtwos{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrthrees{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrfours{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrfives{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrsixs{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgrsevens{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.cimgreights{
+    height: calc(20vh);
+    width: calc(11vw);
+    border: 1px solid rgb(175, 174, 174);
+}
+.iconones{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.icontwos{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconthrees{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconfours{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconfives{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconsixs{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconsevens{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.iconeights{
+    height: calc(12vh);
+    width: calc(6vw);
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.textones{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.texttwos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textthrees{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textfours{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textfives{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textsixs{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.textsevens{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.texteights{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+/* just for you section */
+.foryou{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+.cardlinethree{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(50vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.cardss{
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsstwo{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssthree{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfour{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfive{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsssix{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover just for you */
+.cardss:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsstwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsssix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* line four of cards */
+.cardlinefour{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(50vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.cardss{
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsstwo{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssthree{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfour{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfive{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsssix{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover just for you two*/
+.cardss:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsstwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsssix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* line five of cards */
+.cardlinefive{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(50vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.cardss{
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsstwo{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssthree{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfour{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfive{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsssix{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover just for you three*/
+.cardss:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsstwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsssix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* line six of cards */
+.cardlinesix{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: calc(50vh);
+    width: calc(86vw);
+    margin-left: 7%;
+}
+.cardss{
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsstwo{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssthree{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfour{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardssfive{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardsssix{
+    margin-left: 1%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.cardimgtop{
+    height: calc(30vh);
+    width: calc(13.5vw);
+    margin-top: 3%;
+} 
+.cardtext{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.cardtextt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #fd571a;
+}
+.cardtextth{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+}
+.cardtextf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+/* hover just for you four*/
+.cardss:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsstwo:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssthree:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfour:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardssfive:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+.cardsssix:hover{
+    box-shadow: 2px 2px 2px 2px rgb(204, 204, 204);
+}
+/* button */
+.loadmore{
+    height: calc(6vh);
+    width: calc(35vw);
+    color: #fd571a;
+    border: 1px solid #fd571a;
+    margin-left: 32%;
+    margin-top: 2%;
+}
+/* bottom link row */
+.alllinks{
+    background-color: rgb(34, 34, 61);
+    height: calc(60vh);
+    width: calc(100vw);
+    margin-top: 3%;
+    display: flex;
+}
+.customercare{
+    height: calc(30vh);
+    width: calc(15vw);
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.customercares{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+.linksone{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.makemoney{
+    height: calc(15vh);
+    width: calc(15vw);
+    margin-left: -15%;
+    margin-top: 20%;
+}
+.makemoneys{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+.linkstwo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.daraz{
+    height: calc(45vh);
+    width: calc(15vw);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.darazs{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+.linksthree{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.barcodeicon{
+    height: calc(14vh);
+    width: calc(7vw);
+    margin-top: 3%;
+    margin-left: 13%;
+    border-radius: 4px;
+}
+.darazbottomicon{
+    height: calc(6vh);
+    width: calc(3vw);
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.happy{
+    color: #fd571a;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7%;
+    font-weight: bold;
+    margin-left: -3%;
+}
+.download{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8.5%;
+    margin-left: -8.1%;
+}
